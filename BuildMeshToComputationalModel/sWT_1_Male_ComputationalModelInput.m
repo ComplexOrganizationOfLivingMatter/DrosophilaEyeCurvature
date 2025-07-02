@@ -1,0 +1,3 @@
+%% To load Eye_42_44hr_retina2_arm_factin_3_Original
+
+load("sWT_1_Male_BuildedMesh.mat",'coordinates','elements','fixnodes','pointload','uniload','thick','young','poiss','denss')
