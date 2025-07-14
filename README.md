@@ -23,15 +23,15 @@ Run [ExtractTriangulationFromPupa.m](TriangularMeshGenerationFromSegmentation/Ex
 
 ### 2. Build the mesh for the Computational Model
 
-Code in: BuildMeshToComputaionalModel/
+Code in: BuildMeshToComputationalModel/
 
 Code for obtaining the quadratic triangular mesh from the pupae basal triangular mesh.
 
 Once the basal triangulation is obtained, run the different .m files in this folder to get them in the format that the computational model needs.
 
-Run [Geometry_sWT_1_Male.m](BuildMeshToComputaionalModel/Geometry_sWT_1_Male.m) to obtain the sWT computational model information. Run [Geometry_sIT_1_Male.m](BuildMeshToComputaionalModel/Geometry_sIT_1_Male.m) and [Geometry_sRub_1_Male.m](BuildMeshToComputaionalModel/Geometry_sRub_1_Male.m) for its computational versions.
+Run [Geometry_sWT_1_Male.m](BuildMeshToComputationalModel/Geometry_sWT_1_Male.m) to obtain the sWT computational model information. Run [Geometry_sIT_1_Male.m](BuildMeshToComputationalModel/Geometry_sIT_1_Male.m) and [Geometry_sRub_1_Male.m](BuildMeshToComputationalModel/Geometry_sRub_1_Male.m) for its computational versions.
 
-The data must be saved as .mat in .m file such as [sWT_1_Male_ComputationalModelInput.m](BuildMeshToComputaionalModel/sWT_1_Male_ComputationalModelInput.m)
+The data must be saved as .mat in .m file such as [sWT_1_Male_ComputationalModelInput.m](BuildMeshToComputationalModel/sWT_1_Male_ComputationalModelInput.m)
 
 ---
 
@@ -43,7 +43,7 @@ Code for applying preassure to the mesh to deploy it.
 
 Based on FEM and Lagrangian models, this code deploys the quadratic mesh previoulsy built.
 
-Run [Pressure_Expansion_TQQL_Model.m](BuildMeshToComputaionalModel/Pressure_Expansion_TQQL_Model.m) and use as input any ComputationalModelInputs as [sWT_1_Male_ComputationalModelInput.m](BuildMeshToComputaionalModel/sWT_1_Male_ComputationalModelInput.m).
+Run [Pressure_Expansion_TQQL_Model.m](ComputationalModel/Pressure_Expansion_TQQL_Model.m) and use as input any ComputationalModelInputs as [sWT_1_Male_ComputationalModelInput.m](BuildMeshToComputationalModel/sWT_1_Male_ComputationalModelInput.m).
 
 The results will be saved as .mat and .vtk in two different folders.
 
@@ -57,7 +57,7 @@ Code for extracting the apical surface of adult eyes.
 
 The segmentation must be load in .tif and the result will be saved in .mat.
 
-Run [ExtractAdultEye.m](BuildMeshToComputaionalModel/ExtractAdultEye.m) to extract the apical surface of any segmented adult eye.
+Run [ExtractAdultEye.m](ExtractAdultEyes/ExtractAdultEye.m) to extract the apical surface of any segmented adult eye.
 
 ---
 
