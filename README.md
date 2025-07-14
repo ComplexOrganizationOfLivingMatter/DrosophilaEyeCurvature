@@ -29,7 +29,7 @@ Code for obtaining the quadratic triangular mesh from the pupae basal triangular
 
 Once the basal triangulation is obtained, run the different .m files in this folder to get them in the format that the computational model needs.
 
-Run [Geometry_sWT_1_Male.m](BuildMeshToComputaionalModel/ExtractTriangulationFromPupa.m) to obtain the sWT computational model information. Run [Geometry_sIT_1_Male.m](BuildMeshToComputaionalModel/Geometry_sIT_1_Male.m) and [Geometry_sRub_1_Male.m](BuildMeshToComputaionalModel/Geometry_sRub_1_Male.m) for its computational versions.
+Run [Geometry_sWT_1_Male.m](BuildMeshToComputaionalModel/Geometry_sWT_1_Male.m) to obtain the sWT computational model information. Run [Geometry_sIT_1_Male.m](BuildMeshToComputaionalModel/Geometry_sIT_1_Male.m) and [Geometry_sRub_1_Male.m](BuildMeshToComputaionalModel/Geometry_sRub_1_Male.m) for its computational versions.
 
 The data must be saved as .mat in .m file such as [sWT_1_Male_ComputationalModelInput.m](BuildMeshToComputaionalModel/sWT_1_Male_ComputationalModelInput.m)
 
